@@ -1,4 +1,4 @@
-This is y personal website, design by HTML5 UP, go look at what he made, he is very good !
+This is my personal website, design by HTML5 UP, go look at what he made, he is very good !
 
 Forty by HTML5 UP
 html5up.net | @ajlkn
