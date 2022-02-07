@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mes créations on Pverte</title>
+    <link>https://pverte.me/fr/creations/</link>
+    <description>Recent content in Mes créations on Pverte</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language><atom:link href="https://pverte.me/fr/creations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mes Podcasts</title>
+      <link>https://pverte.me/fr/creations/podcasts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pverte.me/fr/creations/podcasts/</guid>
+      <description>En 2020, lors du premier confinement, je décide de créer une webradio, pour parler de créateurs inconnus, pourtant avec beaucoup de talents.
+Aujourd&amp;rsquo;hui (2022), j&amp;rsquo;y travaille moins, ayant moins de temps avec les cours (c&amp;rsquo;est difficile le temps libre au lycée), donc je sort une émission tout les 2 à 4 mois.
+Les podcasts que j&amp;rsquo;ai créé
+La Radio Pomme Raconte La Radio Pomme Raconte est mon premier podcast, où je parle de créations inconnues du grand public, mais qui méritent d&amp;rsquo;être reconnues</description>
+    </item>
+    
+  </channel>
+</rss>
