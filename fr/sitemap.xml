@@ -15,7 +15,7 @@
                 href="https://pverte.me/fr/blog/"
                 />
   </url><url>
-    <loc>https://pverte.me/fr/blog/1/</loc>
+    <loc>https://pverte.me/fr/blog/2/</loc>
     <lastmod>2022-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pverte.me/fr/</loc>
@@ -30,6 +30,9 @@
                 hreflang="fr"
                 href="https://pverte.me/fr/"
                 />
+  </url><url>
+    <loc>https://pverte.me/fr/blog/1/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pverte.me/fr/categories/</loc>
     <xhtml:link
