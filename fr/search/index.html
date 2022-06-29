@@ -6,12 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Rechercher | Pverte</title>
-<meta name="keywords" content="" />
+<meta name="keywords" content="">
 <meta name="description" content="search">
 <meta name="author" content="">
-<link rel="canonical" href="https://pverte.me/fr/search/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css" integrity="sha256-yIlj/i15RiAA/Q&#43;xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as="style"><link crossorigin="anonymous" rel="preload" as="fetch" href="../index.json">
-<script defer crossorigin="anonymous" src="/assets/js/search.min.6a9a7eb2e837edc2f9236bb0c733bf12998c2a01b7c92054b7fbdda7370a68b9.js" integrity="sha256-app&#43;sug37cL5I2uwxzO/EpmMKgG3ySBUt/vdpzcKaLk="></script>
+<link rel="canonical" href="https://pverte.me/fr/search/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.d7fb4cbf980fe688a21621b06a795933c4e6bb2d4070ec940667af1715d84af2.css" integrity="sha256-1/tMv5gP5oiiFiGwanlZM8Tmuy1AcOyUBmevFxXYSvI=" rel="preload stylesheet" as="style"><link crossorigin="anonymous" rel="preload" as="fetch" href="../index.json">
+<script defer crossorigin="anonymous" src="/assets/js/search.70e36f7bbbdb05290ddfd8302cca732afd0f6cab030277ec040ad2ecd678e9df.js" integrity="sha256-cONve7vbBSkN39gwLMpzKv0PbKsDAnfsBArS7NZ46d8="></script>
 <link rel="icon" href="https://pverte.me/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://pverte.me/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://pverte.me/favicon-32x32.png">
@@ -19,9 +19,8 @@
 <link rel="mask-icon" href="https://pverte.me/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.92.0" />
-<link rel="alternate" hreflang="fr" href="https://pverte.me/fr/search/" />
-<link rel="alternate" hreflang="en" href="https://pverte.me/search/" />
+<link rel="alternate" hreflang="fr" href="https://pverte.me/fr/search/">
+<link rel="alternate" hreflang="en" href="https://pverte.me/search/">
 <noscript>
     <style>
         #theme-toggle,
@@ -131,7 +130,7 @@
     <nav class="nav">
         <div class="logo">
             <a href="https://pverte.me/fr/" accesskey="h" title="Pverte (Alt + H)">Pverte</a>
-            <span class="logo-switches">
+            <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -154,11 +153,11 @@
                 </button>
                 <ul class="lang-switch"><li>|</li>
                     <li>
-                        <a href="https://pverte.me/" title="En"
-                            aria-label="En">En</a>
+                        <a href="https://pverte.me/" title="English"
+                            aria-label="English">En</a>
                     </li>
                 </ul>
-            </span>
+            </div>
         </div>
         <ul id="menu">
             <li>
@@ -167,8 +166,18 @@
                 </a>
             </li>
             <li>
+                <a href="https://pverte.me/fr/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
                 <a href="https://pverte.me/fr/creations/" title="Mes créations">
                     <span>Mes créations</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://pverte.me/fr/search" title="Recherche">
+                    <span class="active">Recherche</span>
                 </a>
             </li>
         </ul>
@@ -183,8 +192,8 @@
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
         </svg>
     </h1>
-    <div class="post-meta">
-<ul class="i18n_list">Traductions:
+    <div class="post-meta">Traductions:
+<ul class="i18n_list">
     <li>
         <a href="https://pverte.me/search/">En</a>
     </li>
@@ -201,71 +210,17 @@
 <footer class="footer">
     <span>&copy; 2022 <a href="https://pverte.me/fr/">Pverte</a></span>
     <span>
-        Powered by
+         | Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
         <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+         | 
+        <a href="../terms/" rel="noopener">Privacy Policy and Terms of services</a>
     </span>
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-</body>
+</a></body>
 
 </html>

@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pverte.me/blog/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pverte.me/fr/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pverte.me/blog/"
+                />
+  </url><url>
     <loc>https://pverte.me/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -36,6 +48,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://pverte.me/creations/podcasts/"
+                />
+  </url><url>
+    <loc>https://pverte.me/terms/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pverte.me/fr/terms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pverte.me/terms/"
                 />
   </url><url>
     <loc>https://pverte.me/</loc>

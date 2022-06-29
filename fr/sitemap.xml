@@ -2,6 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pverte.me/fr/blog/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pverte.me/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pverte.me/fr/blog/"
+                />
+  </url><url>
+    <loc>https://pverte.me/fr/blog/1/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pverte.me/fr/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pverte.me/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pverte.me/fr/"
+                />
+  </url><url>
     <loc>https://pverte.me/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -13,6 +42,8 @@
                 hreflang="fr"
                 href="https://pverte.me/fr/categories/"
                 />
+  </url><url>
+    <loc>https://pverte.me/fr/creations/devs/</loc>
   </url><url>
     <loc>https://pverte.me/fr/creations/</loc>
     <xhtml:link
@@ -38,16 +69,16 @@
                 href="https://pverte.me/fr/creations/podcasts/"
                 />
   </url><url>
-    <loc>https://pverte.me/fr/</loc>
+    <loc>https://pverte.me/fr/terms/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://pverte.me/"
+                href="https://pverte.me/terms/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://pverte.me/fr/"
+                href="https://pverte.me/fr/terms/"
                 />
   </url><url>
     <loc>https://pverte.me/fr/search/</loc>

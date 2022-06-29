@@ -5,6 +5,8 @@
     <link>https://pverte.me/categories/</link>
     <description>Recent content in Categories on Pverte</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language><atom:link href="https://pverte.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr-fr</language>
+    <managingEditor>contact@pverte.me (Pverte)</managingEditor>
+    <webMaster>contact@pverte.me (Pverte)</webMaster><atom:link href="https://pverte.me/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

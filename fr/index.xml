@@ -5,17 +5,53 @@
     <link>https://pverte.me/fr/</link>
     <description>Recent content on Pverte</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language><atom:link href="https://pverte.me/fr/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr-fr</language>
+    <managingEditor>contact@pverte.me (Pverte)</managingEditor>
+    <webMaster>contact@pverte.me (Pverte)</webMaster>
+    <lastBuildDate>Tue, 28 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pverte.me/fr/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mes Podcasts</title>
+      <title>Premier post</title>
+      <link>https://pverte.me/fr/blog/1/</link>
+      <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
+      <author>contact@pverte.me (Pverte)</author>
+      <guid>https://pverte.me/fr/blog/1/</guid>
+      <description>Hello tout le monde ! Alors voilà, tout premier post de ce blog ! On va dire qu&amp;rsquo;avec ça le site est fonctionnel et est à sa version 1.0 ! Donc ici sur ce site je vais sois faire des posts juste en français, soit des posts juste en anglais, soit les deux, je verrais par rapport à ma motivation.
+Vous pourrez retrouver ici toutes mes créations, il suffit juste d&amp;rsquo;aller dans Recherche et de chercher ce que vous voulez, ou même tout simplement dans Mes Créations !</description>
+    </item>
+    
+    <item>
+      <title>Développement informatique</title>
+      <link>https://pverte.me/fr/creations/devs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>contact@pverte.me (Pverte)</author>
+      <guid>https://pverte.me/fr/creations/devs/</guid>
+      <description>Et oui, je code parfois également quelques trucs, ayant des connaissances en Pythons, et quelques unes dans d&amp;rsquo;autres languages. Vous pouvez trouver la plupart des codes sources sur mon Github
+Mes créations
+Pafi Pafi est un bot discord pour permettre aux utilisateurs de trouver tout les liens d&amp;rsquo;une musique, en entrant un simple lien ou en recherchant la musique. Non terminé</description>
+    </item>
+    
+    <item>
+      <title>Podcasts</title>
       <link>https://pverte.me/fr/creations/podcasts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>contact@pverte.me (Pverte)</author>
       <guid>https://pverte.me/fr/creations/podcasts/</guid>
       <description>En 2020, lors du premier confinement, je décide de créer une webradio, pour parler de créateurs inconnus, pourtant avec beaucoup de talents.
 Aujourd&amp;rsquo;hui (2022), j&amp;rsquo;y travaille moins, ayant moins de temps avec les cours (c&amp;rsquo;est difficile le temps libre au lycée), donc je sort une émission tout les 2 à 4 mois.
 Les podcasts que j&amp;rsquo;ai créé
 La Radio Pomme Raconte La Radio Pomme Raconte est mon premier podcast, où je parle de créations inconnues du grand public, mais qui méritent d&amp;rsquo;être reconnues</description>
+    </item>
+    
+    <item>
+      <title>Politiques de confidentialité et conditions de service</title>
+      <link>https://pverte.me/fr/terms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>contact@pverte.me (Pverte)</author>
+      <guid>https://pverte.me/fr/terms/</guid>
+      <description>Vie privée Très simple : ce site ne prend aucune information sur vous et votre navigateur.
+Si vous souhaitez contacter le propriétaire du site, vous pouvez envoyer un e-mail à : contact@pverte.me
+Conditions d&amp;rsquo;utilisation En allant sur ce site, vous acceptez les règles suivantes :
+Toutes les photos, sauf mentions contraires, sont de moi. Vous n&amp;rsquo;êtes pas autorisé à les utiliser si je ne vous ai pas donné une autorisation écrite.</description>
     </item>
     
     
