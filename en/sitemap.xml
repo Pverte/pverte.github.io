@@ -26,6 +26,18 @@
                 href="https://pverte.me/categories/"
                 />
   </url><url>
+    <loc>https://pverte.me/creations/devs/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pverte.me/fr/creations/devs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pverte.me/creations/devs/"
+                />
+  </url><url>
     <loc>https://pverte.me/creations/</loc>
     <xhtml:link
                 rel="alternate"
