@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delayed Buttons Display</title>
+</head>
+<body>
+    <h1>Welcome to the Page</h1>
+    
+    <script>
+        // Function to display the buttons after 10 seconds
+        function displayButtons() {
+            const buttonContainer = document.getElementById("buttonContainer");
+            buttonContainer.style.display = "block";
+        }
+
+        // Wait for the page to load
+        window.addEventListener("load", function() {
+            // Set a timeout to display the buttons after 10 seconds
+            setTimeout(displayButtons, 10000); // 10000 milliseconds = 10 seconds
+        });
+    </script>
+
+    <div id="buttonContainer" style="display: none;">
+        <button>Button 1</button>
+        <button>Button 2</button>
+    </div>
+</body>
+</html>
