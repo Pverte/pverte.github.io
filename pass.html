@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Protected Page</title>
+</head>
+<body>
+    <h1>Welcome to the Password-Protected Page</h1>
+    <form id="passwordForm" onsubmit="checkPassword(event)">
+        <label for="password">Enter the password: </label>
+        <input type="password" id="password" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        function checkPassword(event) {
+            event.preventDefault();
+            const passwordInput = document.getElementById("password");
+            const enteredPassword = passwordInput.value;
+
+            // Replace "Sea" with your desired password
+            const correctPassword = "Sea";
+
+            if (enteredPassword === correctPassword) {
+                window.location.href = "https://youtu.be/dQw4w9WgXcQ";
+            } else {
+                alert("Incorrect password. Please try again.");
+                passwordInput.value = "";
+            }
+        }
+    </script>
+</body>
+</html>
