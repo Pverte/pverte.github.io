@@ -1,0 +1,28 @@
+l<!DOCTYPE html>
+<html>
+<head>
+    <title>Bonne réponse ?</title>
+</head>
+<body>
+    <h1>Analyse en cours...</h1>
+    <img src="https://i.gifer.com/DFky.gif" alt="Animated GIF">
+    
+    <script>
+        // Function to display the buttons after 10 seconds
+        function displayButtons() {
+            const buttonContainer = document.getElementById("buttonContainer");
+            buttonContainer.style.display = "block";
+        }
+
+        // Wait for the page to load
+        window.addEventListener("load", function() {
+            // Set a timeout to display the buttons after 10 seconds
+            setTimeout(displayButtons, 5000); // 10000 milliseconds = 10 seconds
+        });
+    </script>
+
+    <div id="buttonContainer" style="display: none;">
+        <p style="color: green;">Bonne réponse !</p>
+    </div>
+</body>
+</html>
