@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webhook Example</title>
+</head>
+<body>
+
+<p>Click the link to send a message to the webhook:</p>
+<a href="#" id="webhook-link">Send Message</a>
+
+<script>
+document.getElementById("webhook-link").addEventListener("click", function(event) {
+    event.preventDefault(); // Prevent the default behavior of the link
+
+    var webhookUrl = "https://discord.com/api/webhooks/1171147784552984576/AE-C8TjuH4WmN2NR6S_qZifiRmt4FO39AfsUG5cUa1KOUJGhU_qN3fdpDO34WTXC37OU"; // Replace with your actual webhook URL
+    var message = "hello";
+
+    // Create a new XMLHttpRequest object
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", webhookUrl, true);
+    xhr.setRequestHeader("Content-Type", "application/json");
+
+    // Create the payload to send to the webhook
+    var payload = JSON.stringify({ content: message });
+
+    // Send the POST request
+    xhr.send(payload);
+
+    // Optional: Handle the response from the webhook
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            // Request was successful, you can handle the response here
+            console.log("Message sent to the webhook!");
+        }
+    };
+});
+</script>
+
+</body>
+</html>
